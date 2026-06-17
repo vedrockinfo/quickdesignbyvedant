@@ -10,7 +10,7 @@ import LeaderConclave from "../../assets/leaderconclave.jpg";
 import palmax from "../../assets/palmax.jpg";
 import policymakers from "../../assets/policymakers.jpg";
 import sureland from "../../assets/sureland.jpg";
-
+import luminaTerra from "../../assets/lumina-terra-01.jpg";
 import Talwar from "../../assets/talwar-clinics.jpg";
 import Yabbit from "../../assets/yabbit.jpg";
 import SatoshiDX from "../../assets/vedant-project-05.jpg";
@@ -21,6 +21,8 @@ import GloClass from "../../assets/gloclass-01.jpg";
 import DeviStatic from "../../assets/devi-static-01.jpg"
 import sunita from "../../assets/sunta-01.jpg"
 import globallearning from "../../assets/global-learning-lab-01.jpg"
+import jnb from "../../assets/jnb-01.jpg";
+import getilearn from "../../assets/geti.jpg";
 
 
 const MyTabsComponent = () => {
@@ -64,6 +66,48 @@ const MyTabsComponent = () => {
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
+                      <img src={getilearn} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">GETI</h2>
+                      <p>Global Education & Training Institute: Transforming Education, Empowering Educators.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://getilearn.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={jnb} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">J & B Gandhi Academy </h2>
+                      <p>A 4-month Professional Development Course in Transformational Education (ALfA × Hi PATH).</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://train.getilearn.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={luminaTerra} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">Lumina Terra</h2>
+                      <p>Lumina Terra is a distinguished educational institution in the Lucknow area.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://luminaterra.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
                       <img src={GoodX} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
@@ -86,7 +130,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://leadersconclave.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://dignityeducation.org/leadersconclave/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
@@ -142,7 +186,7 @@ const MyTabsComponent = () => {
                     </div>
                   </div>
                   <div className="explore">
-                    <a href="https://skyhigh-global.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                    <a href="https://edisonlearn.com/skyhigh/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
