@@ -1,0 +1,134 @@
+
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    max-width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem 2rem;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    @include DeviceMaximum768{
+        bottom: 1rem;
+    }
+    a{
+        background: transparent;
+        padding: 0 1.1rem;
+        @media screen and (min-width:768px) {
+            padding: 0 1.3rem;
+        }
+        border-radius: 50%;
+        display: flex;
+        color: $colorLight;
+        font-size: 1.2rem;
+        position: relative;
+        span{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        &:hover{
+            color: $colorPrimary;
+        }
+    }
+    .active{
+        color: $colorPrimary;
+        span{
+            color: $colorPrimary;
+        }
+    }
+}
+.topHeader{
+    .container{
+        position: relative;
+        .logo{
+            position: absolute;
+            top: 20px;
+            left: 0;
+            z-index: 1;
+            @media screen and (max-width:575.5px) {
+                left: 15px;
+            }
+        }
+    }
+   .offcanvas {
+    background: $colorBody;
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    li:last-child{
+        a{
+            border-bottom: none!important;
+        }
+    }
+    &::before{
+        content: "";
+        background: url(./assets/offcanvas-bg.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    opacity: 0.3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: overlay;
+    }
+    a.nav-item {
+    color: $colorText;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba($colorText, 0.2);
+    @media screen and (min-width:992px) {
+        font-size: 20px;
+    font-weight: 100;
+    }
+}
+button.btn-close {
+    filter: brightness(2) invert(1);
+}
+.offcanvas-backdrop.show {
+    opacity: .7!important;
+}
+}
+}
+.topHeader__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 10px 0; 
+    align-items: center;
+    .logo{
+        img{
+            // max-width: 100px;
+            transition: $transition;
+        }
+    }
+    .toggle{
+        position: relative;
+        span{
+            display: block;
+            width: 30px;
+            height: 2px;
+            background-color: $colorWhite;
+            &:nth-child(2){
+                margin: 7px 0;
+            }
+        }
+    }
+}

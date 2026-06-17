@@ -1,8 +1,10 @@
+import React from 'react';
+import Home from './pages/Home';
+
 function App() {
   return (
     <>
-    <h1>Website is Under Construction</h1>
-    <p>Please check back later for updates.</p>
+    <Home />
     </>
   );
 }

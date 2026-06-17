@@ -1,0 +1,142 @@
+.projectGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    @media screen and (min-width:768px) and (max-width:1200px) {
+      grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    }
+    @media screen and (max-width:767.9px) {
+      grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    .explore{
+      margin-top: 1rem;
+    }
+    }
+    .explore {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    &__Projects{
+        position: relative;
+        @include DeviceMaximum768{
+          border: 1px solid $colorWhite;
+          border-radius: 10px;
+        }
+        &:hover{
+            .ss::before{
+                opacity: 1;
+                height: 100%;
+            }
+            .highlights{
+                bottom: 0;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .ss{
+            position: relative;
+            @include DeviceMaximum768{
+             img{
+              border-radius: 10px 10px 0 0;
+             }
+            }
+            &::before{
+                content: "";
+                background: rgba(#000000, $alpha: 0.7);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                opacity: 0;
+                transition: all 0.5s;
+            }
+        }
+        .highlights {
+          @include DeviceMaximum768{
+            padding: 1rem 1rem 0 1rem;
+    text-align: center;
+          }
+          @include DeviceMinimum768{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            padding: 0 1rem;
+            transition: all 0.5s;
+          }
+          h2.tertiaryHeading {
+          font-size: 1.5rem;
+          text-transform: capitalize;
+          color: #fff;
+          font-weight: 700;
+          @include DeviceMaximum576{
+            font-size: 1rem;
+            font-weight: 600;
+          }
+      }
+      p{
+          color: #fff;
+          font-size: 1rem;
+          @include DeviceMaximum576{
+            font-size: 0.9rem;
+            font-weight: 300;
+          }
+      }
+}
+    }
+}
+.tabs-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    @include DeviceMaximum768{
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.tab {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0;
+  transition: 0.3s ease;
+  background-color: $colorBG;
+  text-align: center;
+  @include DeviceMaximum576{
+    padding: 7px 1rem;
+  }
+}
+
+.tab.active {
+  background-color: $colorPrimary;
+  color: white;
+  position: relative;
+  &::before{
+    content: "";
+    background: $colorPrimary;
+    position: absolute;
+    bottom: -10px;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    @include DeviceMaximum768{
+      content: none;
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.content {
+  padding: 4rem 1rem 1rem 1rem;
+}

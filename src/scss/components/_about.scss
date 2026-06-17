@@ -1,0 +1,77 @@
+.about-me{
+    @include DeviceMaximum768{
+        .row:first-child{
+            flex-direction: column-reverse;
+            .our-heads{
+                margin-top: 0;
+                margin-bottom: 3.5rem;
+            }
+        }
+        .row:last-child{
+            margin-top: 0;
+        }
+    }
+    .img-fluid{
+        // max-height: 30rem;
+    }
+    .our-heads{
+        @include DeviceMaximum768{
+            margin-top: 3.5rem;
+            h2{
+                text-align: center;
+            }
+        }
+    }
+    .experience-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        margin-top: 2rem;
+        @media screen and (max-width:1399.9px){
+            gap: 1rem;
+        }
+        @include DeviceMaximum768{
+            grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+        }
+        .card{
+            background: transparent;
+            border: 2px solid $colorPrimary;
+            color: $colorPrimary;
+            min-height: 10rem;
+            align-items: center;
+            justify-content: center;
+            svg {
+                font-size: 3rem;
+            }
+        }
+    }
+    h6.duration {
+    margin: 15px 0 0 0;
+    font-weight: 600;
+    & + .content-para p{
+        font-size: 14px;
+    }
+}
+}
+ul.primaryList {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul.primaryList{
+    padding: 0;
+    margin: 2rem 0 0 0;
+    li {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    svg {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 18px;
+    color: $colorPrimary;
+}
+}
+} 
