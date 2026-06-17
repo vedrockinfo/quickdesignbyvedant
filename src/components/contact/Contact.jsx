@@ -3,8 +3,10 @@ import React, {useState} from 'react';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
+    mobile: '',
     email: '',
-    message: ''
+    xyz: '',
+    enquiry: ''
   });
 
   const handleInputChange = (e) => {
