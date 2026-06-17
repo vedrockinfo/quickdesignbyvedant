@@ -53,9 +53,9 @@ const Footer = () => {
             <div className="col-md-6">
               <div className="footerlinks">
                 <ul>
-                  <li><a href="#">terms & condition</a></li>
+                  <li><a href="/#terms">terms & condition</a></li>
                   <li>|</li>
-                  <li><a href="3">privacy policy</a></li>
+                  <li><a href="/#privacy">privacy policy</a></li>
                 </ul>
               </div></div>
           </div>

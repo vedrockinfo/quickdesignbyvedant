@@ -8,7 +8,7 @@ const topHeader = () => {
       <div className='container topHeader__container'>
         <div className='topHeader__row'>
           <div className='logo'>
-            <Link to="/"><img src={Logo} /></Link>
+            <Link to="/"><img src={Logo} alt="Logo" /></Link>
           </div>
           {/* <a className="toggle" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <span></span><span></span><span></span>

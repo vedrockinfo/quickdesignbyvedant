@@ -10,7 +10,7 @@ import LeaderConclave from "../../assets/leaderconclave.jpg";
 import palmax from "../../assets/palmax.jpg";
 import policymakers from "../../assets/policymakers.jpg";
 import sureland from "../../assets/sureland.jpg";
-import synnergy from "../../assets/synnergy-summit.jpg";
+
 import Talwar from "../../assets/talwar-clinics.jpg";
 import Yabbit from "../../assets/yabbit.jpg";
 import SatoshiDX from "../../assets/vedant-project-05.jpg";

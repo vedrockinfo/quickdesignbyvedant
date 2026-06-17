@@ -1,9 +1,7 @@
 import React from 'react';
 import Vedant from '../../assets/me-about.jpg';
 import { FaAward } from 'react-icons/fa';
-import { FaHandPointRight } from "react-icons/fa";
 import { SiTask } from "react-icons/si";
-import { TbFolderCheck } from 'react-icons/tb';
 import { SiSuperuser } from "react-icons/si";
 import CircularCounter from '../CircularCounter/CircularCounter';
 

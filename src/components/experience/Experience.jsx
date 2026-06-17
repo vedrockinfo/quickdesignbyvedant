@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsPatchCheckFill} from 'react-icons/bs';
+
 
 const Experience = () => {
   return (
