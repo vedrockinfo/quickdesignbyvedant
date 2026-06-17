@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .about-me{
     @include DeviceMaximum768{
         .row:first-child{

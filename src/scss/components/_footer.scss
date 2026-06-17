@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .footer{
     .primary-heading{
         @include DeviceMinimum768{

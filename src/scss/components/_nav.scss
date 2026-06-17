@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 
 nav{
     background: rgba(0, 0, 0, 0.3);
@@ -74,7 +76,7 @@ nav{
     }
     &::before{
         content: "";
-        background: url(./assets/offcanvas-bg.jpg);
+        background: url(../../assets/offcanvas-bg.jpg);
         position: absolute;
         top: 0;
         left: 0;

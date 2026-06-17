@@ -1,3 +1,5 @@
+@use "../abstract" as *;
+
 .mt-large{
     margin-top: 7rem;
     @include DeviceMaximum1024{
