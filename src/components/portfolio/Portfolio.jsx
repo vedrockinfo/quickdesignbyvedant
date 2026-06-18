@@ -23,6 +23,7 @@ import sunita from "../../assets/sunta-01.jpg"
 import globallearning from "../../assets/global-learning-lab-01.jpg"
 import jnb from "../../assets/jnb-01.jpg";
 import getilearn from "../../assets/geti.jpg";
+import OneTara from "../../assets/one-tara-01.jpg";
 
 
 const MyTabsComponent = () => {
@@ -103,6 +104,20 @@ const MyTabsComponent = () => {
                   </div>
                   <div className="explore">
                     <a href="https://luminaterra.org/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={OneTara} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">One Tara</h2>
+                      <p>Empowering ordinary citizens to provide holistic, high-quality education to underprivileged children across India.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://one-tara-new.vercel.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
                 <div className="projectGrid__Items">
