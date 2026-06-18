@@ -288,20 +288,6 @@ const MyTabsComponent = () => {
                     <a href="https://dignityeducation.org/lab/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
                   </div>
                 </div>
-                <div className="projectGrid__Items">
-                  <div className="projectGrid__Projects">
-                    <div className="ss">
-                      <img src={dignityinternational} alt="" className="img-fluid" loading="lazy" />
-                    </div>
-                    <div className="highlights">
-                      <h2 className="tertiaryHeading">Dignity International</h2>
-                      <p>A World Where Every Child and Adult Knows How to Read!</p>
-                    </div>
-                  </div>
-                  <div className="explore">
-                    <a href="https://dignityinternational.netlify.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
-                  </div>
-                </div>
               </div>
             </div>
           )}
