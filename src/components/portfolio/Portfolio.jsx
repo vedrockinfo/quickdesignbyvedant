@@ -252,7 +252,7 @@ const MyTabsComponent = () => {
                       <img src={DeviStatic} alt="" className="img-fluid" loading="lazy" />
                     </div>
                     <div className="highlights">
-                      <h2 className="tertiaryHeading">Dignity Education Vision International (DEVI)</h2>
+                      <h2 className="tertiaryHeading">Dignity Education Vision International</h2>
                       
                     </div>
                   </div>
