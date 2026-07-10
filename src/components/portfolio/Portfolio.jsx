@@ -5,7 +5,6 @@ import GoodX from "../../assets/10xgood.jpg";
 import Aspyra from "../../assets/aspyra.jpg";
 import DTW from "../../assets/day-trading-wars.jpg";
 import literate from "../../assets/synnergy-summit3-0.jpg";
-import dignityinternational from "../../assets/dignityinternational.jpg";
 import LeaderConclave from "../../assets/leaderconclave.jpg";
 import palmax from "../../assets/palmax.jpg";
 import policymakers from "../../assets/policymakers.jpg";
@@ -25,7 +24,7 @@ import jnb from "../../assets/jnb-01.jpg";
 import getilearn from "../../assets/geti.jpg";
 import OneTara from "../../assets/one-tara-01.jpg";
 import geticircle from "../../assets/geticircle-01.jpg";
-
+ 
 
 const MyTabsComponent = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -170,7 +169,7 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Policy Makers</h2>
-                      <p>Let’s Make the Let’s Make the World in Literate in Literate in 45 Days</p>
+                      <p>Let's Make the Let's Make the World in Literate in Literate in 45 Days</p>
                     </div>
                   </div>
                   <div className="explore">
@@ -254,7 +253,7 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Dignity Education Vision International (DEVI)</h2>
-                     
+                      
                     </div>
                   </div>
                   <div className="explore">
@@ -344,7 +343,7 @@ const MyTabsComponent = () => {
                     </div>
                     <div className="highlights">
                       <h2 className="tertiaryHeading">Sureland</h2>
-                      <p>All it takes is a phone call to us to get started, so it doesn’t matter where you live in Australia</p>
+                      <p>All it takes is a phone call to us to get started, so it doesn't matter where you live in Australia</p>
                     </div>
                   </div>
                   <div className="explore">
