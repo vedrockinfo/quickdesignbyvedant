@@ -24,6 +24,7 @@ import globallearning from "../../assets/global-learning-lab-01.jpg"
 import jnb from "../../assets/jnb-01.jpg";
 import getilearn from "../../assets/geti.jpg";
 import OneTara from "../../assets/one-tara-01.jpg";
+import geticircle from "../../assets/geticircle-01.jpg";
 
 
 const MyTabsComponent = () => {
@@ -64,6 +65,20 @@ const MyTabsComponent = () => {
           {activeTab === 0 && (
             <div className="content">
               <div className="projectGrid">
+                <div className="projectGrid__Items">
+                  <div className="projectGrid__Projects">
+                    <div className="ss">
+                      <img src={geticircle} alt="" className="img-fluid" loading="lazy" />
+                    </div>
+                    <div className="highlights">
+                      <h2 className="tertiaryHeading">GETI CIRCLE</h2>
+                      <p>Certified to Transform.</p>
+                    </div>
+                  </div>
+                  <div className="explore">
+                    <a href="https://geticircle.netlify.app/" target="_blank" rel="noopener noreferrer" className='btn-two'>visit now</a>
+                  </div>
+                </div>
                 <div className="projectGrid__Items">
                   <div className="projectGrid__Projects">
                     <div className="ss">
