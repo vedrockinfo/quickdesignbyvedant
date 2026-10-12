@@ -21,7 +21,7 @@ const About = () => {
               <div className="space-one"></div>
             </div>
             <div className="content-para">
-              <p><strong>Results-driven Web Designer and Frontend Development professional</strong> with 6+ years of experience in responsive website design, UI development, and website maintenance.</p>
+              <p><strong>Results driven Web Designer and Frontend Development professional</strong> with 6+ years of experience in responsive website design, UI development, and website maintenance.</p>
               <p>Proficient in <strong>HTML5, CSS3/SCSS, JavaScript, jQuery, Bootstrap, WordPress, and Adobe Photoshop</strong>. Experienced in developing websites from scratch, creating pixel-perfect and cross-browser-compatible interfaces, and managing multiple websites across diverse organizational environments.</p>
               <p>Familiar with <strong>Angular and React</strong>, with a strong focus on usability, responsive design, and delivering high-quality web experiences. Eager to contribute technical expertise and creative problem-solving skills to a growth-oriented IT organization.</p>
             </div>
