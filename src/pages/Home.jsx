@@ -6,7 +6,7 @@ import About from "../components/about/About";
 import Experience from "../components/experience/Experience";
 import Services from "../components/services/Services";
 import Portfolio from "../components/portfolio/Portfolio";
-
+import Kras from '../components/kras/kras';
 import Footer from "../components/footer/Footer";
 
 function Home() {
@@ -17,8 +17,9 @@ function Home() {
       <Nav />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
+      <Services />
+      <Kras />
       {/* <Testimonial /> */}
       <Footer />
     </div>

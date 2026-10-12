@@ -1,0 +1,65 @@
+@use "../abstract" as *;
+
+.kraSection{
+    .row{
+        row-gap: 24px;
+    }
+}
+.kraBox {
+    padding: 32px;
+    border-radius: 24px;
+    border: 1px solid #393838;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    transition: $transition;
+    span.srNo {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #414141;
+}
+    .para {
+    margin-top: 15px;
+    p{
+        margin-bottom: 0;
+    }
+}
+    .head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    strong{
+        color: #fff;
+    }
+    .icon{
+        background: #1e1e1e;
+        border: 1px solid #2a2a2a;
+        border-radius: 10px;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: $transition;
+        svg{
+            color: #fff;
+        }
+    }
+}
+&:hover{
+    --tw-shadow: 0 10px 40px -10px rgba(124, 255, 107, .2);
+    --tw-shadow-colored: 0 10px 40px -10px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-color: rgba($colorPrimary, $alpha: 0.4);
+    transform: translateY(-3px);
+    .icon{
+        background: $colorPrimary;
+        border: 1px solid $colorPrimary;
+        svg{
+            color: $colorBody;
+        }
+    }
+}
+}
